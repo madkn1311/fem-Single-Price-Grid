@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-box{
+    background-color:white;
+}
+
+h1{
+    color:hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+h2{
+    color:hsl(71, 73%, 54%);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.first-box p{
+    color:hsl(218, 22%, 67%);
+    font-size: 14px;
+}
+
+.second-box{
+    background-color: hsl(179, 62%, 43%);
+    color:hsl(204, 43%, 93%);
+    border-bottom-left-radius: 5px;
+}
+
+.second-box p{
+    font-size: 12px;
+}
+
+.unit span{
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+button{
+    background-color: hsl(71, 73%, 54%);
+}
+
+.third-box{
+    background-color: hsl(179, 49%, 54%);
+    color:hsl(204, 43%, 93%);
+    border-bottom-right-radius: 5px;
+}
+
+.third-box p{
+    font-size: 12px;
+    max-width: 300px;
+}
+
+.subscription{
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+button{
+    color: hsl(204, 43%, 93%);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+button:active{
+    transform: translate(2px, 2px);
+}
+
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.attribution a{
+    color: hsl(179, 62%, 43%);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 590px) {
+    .second-box{
+        border-radius: 0;
+    }
+    .third-box{
+        border-radius: 0 0 5px 5px;
+    }
+
+}
